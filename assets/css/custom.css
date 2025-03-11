@@ -148,6 +148,7 @@ h5 {
 }
 
 .header-main-con .navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
     font-size: 18px;
     color: var(--primary-color);
 }
@@ -1446,14 +1447,14 @@ h5 {
 }
 
 .blog-details>a {
-    color: var(--button-color);
+    color: var(--accent);
     font-weight: 700;
     font-size: 14px;
     transition: .3s ease-in-out;
 }
 
 .blog-details>a:hover {
-    color: var(--accent);
+    color: var(--button-color);
 }
 
 .blogs-section .owl-carousel button.owl-dot.active {
