@@ -3,9 +3,11 @@
 :root {
     --primary-color: #fff;
     --secondary-color: #232323;
-    --accent:#ed8860;
+    --accent:#676698;
     --text-color: #7a7a7a;
     --button-color: #2A766B;
+    --light-purple: #e6e8f5;
+    --light-green: #e3eddf;
 }
 
 * {
@@ -417,7 +419,7 @@ h5 {
     width: 78px;
     height: 78px;
     border-radius: 100%;
-    background: var(--accent);
+    background: var(--light-green);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -449,14 +451,14 @@ h5 {
 
 .treatment-types a,
 .treatment-types a i {
-    color: var(--button-color);
+    color: var(--accent);
     font-weight: 700;
     font-size: 14px;
 }
 
 .treatment-types a:hover,
 .treatment-types a:hover i {
-    color: var(--accent);
+    color: var(--button-color);
 }
 
 .generic-title {
@@ -531,9 +533,7 @@ h5 {
 .about-txt-con ul li {
     position: relative;
     border-radius: 5px;
-    background: var(--primary-color);
     padding: 5px 30px 5px;
-    color: var(--secondary-color);
     font-weight: 600;
     white-space: nowrap;
 }
@@ -704,7 +704,7 @@ h5 {
     content: "";
     height: 100%;
     position: absolute;
-    background: rgb(238 137 97 / 100%);
+    background: var(--light-purple);
 }
 
 .contact-con:after {
@@ -734,7 +734,7 @@ h5 {
     width: 516px;
     position: relative;
     z-index: 1;
-    color: var(--primary-color);
+    color: var(--accent);
 }
 
 .form-box ul li {
@@ -751,13 +751,13 @@ h5 {
 .form-box ul li input,
 .form-box ul li select,
 .form-box ul li textarea {
-    border: none;
+    border: .1px solid var(--accent);
     font-size: 14px;
     height: 53px;
     color: var(--primary-color) !important;
     width: 100%;
-    background: #ef916c;
-    box-shadow: 0 0 0 1px #f3ad91;
+    background: transparent;
+    box-shadow: 0 0 0 1px #676698;
     padding: 10px 35px 10px 23px;
     border-radius: 5px;
 }
@@ -834,7 +834,7 @@ h5 {
 .contact-form p,
 .form-box ul li input::placeholder,
 .form-box ul li textarea::placeholder {
-    color: var(--primary-color);
+    color: var(--accent);
 }
 
 .contact-form ul li span {
@@ -916,7 +916,8 @@ h5 {
     border: none;
     cursor: pointer;
     transition: .4s ease-in-out;
-    background: var(--primary-color);
+    background: var(--accent);
+    color: var(--primary-color);
 }
 .contact-con .submit-btn button[type=submit]{
     -webkit-appearance: none;
@@ -1581,7 +1582,7 @@ h5 {
 /* subscribe section styling start */
 /* footer section style end */
 .footer-main-section {
-    background: var(--button-color);
+    background: var(--light-green);
     border-bottom: 1px solid #388277;
 }
 
@@ -1617,7 +1618,7 @@ h5 {
 }
 
 .footer-boxes {
-    color: var(--primary-color);
+    color: var(--button-color);
     padding-right: 45px;
 }
 
@@ -1643,7 +1644,7 @@ h5 {
 .footer-text-boxes h4,
 .footer-text-boxes ul li a i,
 .footer-text-boxes ul li {
-    color: var(--primary-color);
+    color: var(--button-color);
 }
 
 .footer-inner-sec {
@@ -1708,15 +1709,15 @@ h5 {
 
 .copy-rihgt-sec {
     padding: 25px 25px;
-    background: var(--button-color);
+    background: var(--light-green);
 }
 
 .copy-rihgt-sec p {
     font-size: 15px;
-    color: var(--primary-color);
+    color: var(--button-color);
 }
 .copy-rihgt-sec p a{
-    color: var(--primary-color);
+    color: var(--button-color);
 }
 
 /* footer section style end */
@@ -2615,7 +2616,7 @@ h5 {
     width: 573px;
     height: 573px;
     border-radius: 100%;
-    background: linear-gradient(to right, rgba(21, 108, 95, 1) 0%, rgba(238, 137, 97, 1) 100%);
+    background: linear-gradient(to right, rgba(21, 108, 95, 1) 0%, rgba(230, 232, 245, 1) 100%);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -3702,21 +3703,21 @@ h5 {
 
 @-webkit-keyframes spineer {
     from {
-        box-shadow: 0 0 0 0 rgb(238, 137, 97, .99)
+        box-shadow: 0 0 0 0 rgb(230, 232, 245, .99)
     }
 
     to {
-        box-shadow: 0 0 0 25px rgb(238, 137, 97, .01)
+        box-shadow: 0 0 0 25px rgb(230, 232, 245, .01)
     }
 }
 
 @keyframes spineer {
     from {
-        box-shadow: 0 0 0 0 rgb(238, 137, 97, .99)
+        box-shadow: 0 0 0 0 rgb(230, 232, 245, .99)
     }
 
     to {
-        box-shadow: 0 0 0 25px rgb(238, 137, 97, .01)
+        box-shadow: 0 0 0 25px rgb(230, 232, 245, .01)
     }
 }
 
@@ -3801,8 +3802,10 @@ h5 {
 .quote-icon{
     font-size: 40px;
     font-weight: 700;
-    color: rgba(21, 108, 95, 0.7)
+    color: var(--accent);
+
 }
 .quote-author{
-    color: rgba(21, 108, 95, 0.7)
+    color: var(--accent);
+
 }

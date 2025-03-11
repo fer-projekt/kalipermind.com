@@ -19,9 +19,11 @@ body {
     --e-global-color-very-very-light-gray: #eaeaea;
     --primary-color: #fff;
     --secondary-color: #232323;
-    --accent:#ed8860;
+    --accent:#676698;
     --text-color: #7a7a7a;
     --button-color: #2A766B;
+    --light-purple: #e6e8f5;
+    --light-green: #e3eddf;
 }
 a {
 	outline:none;
