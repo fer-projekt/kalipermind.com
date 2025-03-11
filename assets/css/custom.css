@@ -563,12 +563,12 @@ h5 {
 
 .about-txt-con .generic-btn a {
     padding: 20px 43px;
-    background: var(--button-color);
+    background: var(--accent);
     transition: .4s ease-in-out;
 }
 
 .about-txt-con .generic-btn a:hover {
-    background: var(--accent);
+    background: var(--button-color);
     transform: translateY(-8px);
 }
 
