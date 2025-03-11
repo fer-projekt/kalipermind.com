@@ -154,7 +154,7 @@ h5 {
 }
 
 .header-main-con .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--accent);
+    color: var(--light-purple);
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -728,7 +728,7 @@ h5 {
     height: 329px;
     background: url(../images/shape-img2.png) no-repeat;
     position: absolute;
-    filter: brightness(0) saturate(100%) invert(83%) sepia(11%) saturate(4294%) hue-rotate(310deg) brightness(101%) contrast(88%);
+    /* filter: brightness(0) saturate(100%) invert(83%) sepia(11%) saturate(4294%) hue-rotate(310deg) brightness(101%) contrast(88%); */
 }
 
 .contact-form {
@@ -1625,7 +1625,7 @@ h5 {
 
 .footer-main-section::after {
     content: "";
-    background: url(../images/footer-shape-img2.png) no-repeat center;
+    /* background: url(../images/footer-shape-img2.png) no-repeat center; */
     width: 301px;
     height: 285px;
     position: absolute;
