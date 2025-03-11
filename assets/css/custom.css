@@ -255,13 +255,16 @@ h5 {
 
 .banner-btns a {
     transition: .4s ease-in-out;
+    color: var(--secondary-color);
+    background: var(--light-green);
+
 }
 
 .banner-btns.generic-btn a:last-child {
     margin-left: 10px;
     padding: 21px 43px;
     color: var(--secondary-color);
-    background: var(--primary-color);
+    background: var(--light-purple);
 }
 
 .banner-btns.generic-btn a:first-child:hover {
