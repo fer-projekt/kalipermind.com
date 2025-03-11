@@ -82,7 +82,7 @@ h5 {
     border-radius: 8px;
     display: inline-block;
     text-decoration: none;
-    background: var(--accent);
+    background: var(--button-color);
     color: var(--primary-color);
 }
 
@@ -95,7 +95,7 @@ h5 {
 }
 
 .light-bg {
-    background: #fbf7f3;
+    background: #efefef;
 }
 
 /* generics end */
@@ -1583,7 +1583,7 @@ h5 {
 /* subscribe section styling start */
 /* footer section style end */
 .footer-main-section {
-    background: var(--light-green);
+    background: #efefef;
     border-bottom: 1px solid #388277;
 }
 
@@ -1710,7 +1710,7 @@ h5 {
 
 .copy-rihgt-sec {
     padding: 25px 25px;
-    background: var(--light-green);
+    background: #efefef;
 }
 
 .copy-rihgt-sec p {
@@ -3807,6 +3807,6 @@ h5 {
 
 }
 .quote-author{
-    color: var(--accent);
+    color: var(--button-color);
 
 }
