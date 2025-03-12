@@ -410,7 +410,7 @@ h5 {
 /* service section style */
 
 .treatment-types {
-    padding: 13px 13px 30px;
+    padding: 0px 0px 30px;
     border-radius: 15px;
     background: var(--primary-color);
 }
@@ -429,7 +429,7 @@ h5 {
     justify-content: center;
     position: absolute;
     left: 50%;
-    top: 170px;
+    top: 160px;
     transform: translateX(-50%);
 }
 
@@ -441,7 +441,7 @@ h5 {
 }
 
 .treatment-types:hover>figure {
-    transform: translateY(8px);
+    /* transform: translateY(8px); */
 }
 
 .treatment-types>figure img {
@@ -450,6 +450,7 @@ h5 {
 }
 
 .treatment-types h4 {
+    padding: 15px 15px 0px;
     margin-bottom: 5px;
 }
 

@@ -258,7 +258,7 @@
     }
 
     .treatment-types {
-        padding: 13px 13px 20px;
+        padding: 0px 0px 20px;
     }
 
     .about-video-box {
@@ -1777,7 +1777,7 @@
     }
 
     .treatment-types p {
-        padding: 0;
+        padding: 0 15px;
     }
 
     .about-inner-con {
@@ -3308,6 +3308,10 @@
 
     .banner-inner-con {
         grid-template-columns: 100%;
+    }
+
+    .type-img{
+        top: 182px;
     }
 
     .banner-txt-section {
