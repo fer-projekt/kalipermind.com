@@ -75,6 +75,7 @@
     }
 
     .contact-inner-con:after {
+        display: none;
         width: 223px;
         height: 229px;
         background-size: contain;
