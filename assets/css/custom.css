@@ -731,11 +731,12 @@ h5 {
 .contact-inner-con:after {
     top: 50%;
     transform: translateY(-50%);
-    left: 30px;
+    left: 0px;
     content: "";
-    width: 333px;
-    height: 329px;
+    width: 100%;
+    height: 80%;
     background: url(../images/shape-img2.png) no-repeat;
+    background-size: contain;
     position: absolute;
     /* filter: brightness(0) saturate(100%) invert(83%) sepia(11%) saturate(4294%) hue-rotate(310deg) brightness(101%) contrast(88%); */
 }

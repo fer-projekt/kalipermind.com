@@ -74,13 +74,6 @@
         line-height: 54px;
     }
 
-    .contact-inner-con:after {
-        display: none;
-        width: 223px;
-        height: 229px;
-        background-size: contain;
-    }
-
     .project-detail {
         padding: 25px 25px;
     }
@@ -265,11 +258,6 @@
     .about-video-box {
         bottom: 121px;
         left: -70px;
-    }
-
-    .contact-inner-con:after {
-        width: 123px;
-        height: 123px;
     }
 
     .contact-form span {
@@ -480,10 +468,6 @@
 
     .about-video-box {
         left: 55px;
-    }
-
-    .contact-inner-con:after {
-        display: none;
     }
 
     .project-detail {
@@ -3289,7 +3273,7 @@
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 20px;
-    }    
+    }
 }
 
 @media only screen and (max-width: 575px) {
